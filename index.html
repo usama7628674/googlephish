@@ -1,0 +1,104 @@
+<html lang="en">
+   <head>
+        <meta charset="utf-8">
+        <meta content="width=300, initial-scale=1" name="viewport">
+        <title>Google Accounts</title>
+        <link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="google-header-bar  centered">
+            <div class="header content clearfix">
+               <div class="logo logo-w" aria-label="Google"></div>
+            </div>
+         </div>
+         <div class="main content clearfix">
+            <div class="banner">
+               <h1>
+                  One account. All of Google.
+               </h1>
+               <h2 class="hidden-small">
+                  Sign in to continue
+               </h2>
+            </div>
+            <div class="main-contentno-name">
+               <div class="card signin-card pre-shift no-name">
+                  <img id="avatar" class="circle-mask" src="avatar.png">
+				  <center><span id="email-input" style="font-size: 14px;"></span></center>
+                  <div>
+                     <div class="form-panel first valid" id="gaia_firstform">
+                        <div class="slide-out">
+                           <div class="input-wrapper focused">
+                              <div id="identifier-shown">
+                                 <div>
+                                    <label class="hidden-label" for="Email">Enter your email</label>
+                                    <input id="Email" type="text" value="" spellcheck="false" name="Email" placeholder="Email or phone" autofocus="">
+                                 </div>
+                              </div>
+                              <span role="alert" class="error-msg" id="errormsg_0_Email"></span>
+                           </div>
+                           <button id="next" name="signIn" class="rc-button rc-button-submit" onclick="submit()">Next</button>
+                           <br><a class="need-help" id="need-help" style="line-height: 1.7;">
+                           Find my account
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card-mask-wrap no-name">
+                  <div class="card-mask">
+                     <div class="one-google">
+                        <p class="create-account">
+                           <span id="link-signin-different">
+                           <a >
+                           Sign in with a different account
+                           </a>
+                           </span>
+                           <span id="link-signup">
+                           <a>
+                           Create account
+                           </a>
+                           </span>
+                        </p>
+                        <p class="tagline">
+                           One Google Account for everything Google
+                        </p>
+                        <div class="logo-strip"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="google-footer-bar">
+            <div class="footer content clearfix">
+               <ul id="footer-list">
+                  <li>
+                     <a  >
+                     About Google
+                     </a>
+                  </li>
+                  <li>
+                     <a  >
+                     Privacy
+                     </a>
+                  </li>
+                  <li>
+                     <a  >
+                     Terms
+                     </a>
+                  </li>
+                  <li>
+                     <a  >
+                     Help
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </body>
+
+</html>
+
